@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Head from "next/head";
+import NavBar from "../../components/NavBar";
 import heroesData from "../../data/heroes.json";
 import guidesData from "../../data/guides.json";
 
@@ -18,9 +19,10 @@ export function getStaticProps({ params }) {
 export default function HeroGuide({ hero, guide }) {
   return (
     <main className="container">
-      <nav>
-        <Link href="/">← Back to Counter Picker</Link>
-      </nav>
+      <Head>
+        <title>{hero.name} — Marvel Rivals Companion</title>
+      </Head>
+      <NavBar />
       <h1>{hero.name}</h1>
       <p className="hero-role">
         {Array.isArray(hero.role) ? hero.role.join(" / ") : hero.role}

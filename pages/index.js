@@ -1,8 +1,9 @@
 import { useState } from "react";
-import Link from "next/link";
+import Head from "next/head";
 import heroesData from "../data/heroes.json";
 import HeroMultiSelect from "../components/HeroMultiSelect";
 import CounterResults from "../components/CounterResults";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
   const [selectedIds, setSelectedIds] = useState([]);
@@ -11,10 +12,11 @@ export default function Home() {
 
   return (
     <main className="container">
+      <Head>
+        <title>Marvel Rivals Companion</title>
+      </Head>
       <h1>Marvel Rivals Companion</h1>
-      <nav>
-        <Link href="/">Counter Picker</Link>
-      </nav>
+      <NavBar />
 
       <section>
         <h2>Enemy Team ({selectedIds.length}/6)</h2>
