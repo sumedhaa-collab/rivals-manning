@@ -6,13 +6,17 @@ const basePath = isGithubActions
 
 const nextConfig = {
   reactStrictMode: true,
-  output: "export",
-  trailingSlash: true,
-  basePath,
-  assetPrefix: basePath ? `${basePath}/` : undefined,
-  images: {
-    unoptimized: true,
-  },
+  // GitHub Pages can only serve static files, so only export statically
+  // for that build. Vercel gets the full Next.js server runtime.
+  ...(isGithubActions && {
+    output: "export",
+    trailingSlash: true,
+    basePath,
+    assetPrefix: basePath ? `${basePath}/` : undefined,
+    images: {
+      unoptimized: true,
+    },
+  }),
 };
 
 module.exports = nextConfig;
