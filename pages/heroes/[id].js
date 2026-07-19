@@ -30,11 +30,11 @@ export default function HeroGuide({ hero, guide }) {
 
       {guide ? (
         <>
-          <section>
+          <section className="card">
             <h2>Overview</h2>
             <p>{guide.summary}</p>
           </section>
-          <section>
+          <section className="card">
             <h2>Combos &amp; Timing</h2>
             <ul>
               {guide.combos.map((c, i) => (
@@ -42,7 +42,7 @@ export default function HeroGuide({ hero, guide }) {
               ))}
             </ul>
           </section>
-          <section>
+          <section className="card">
             <h2>Common Mistakes</h2>
             <ul>
               {guide.commonMistakes.map((m, i) => (
