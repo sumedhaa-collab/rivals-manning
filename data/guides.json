@@ -1,0 +1,68 @@
+{
+  "guides": [
+    {
+      "heroId": "spider-man",
+      "summary": "High-skill dive Duelist who picks off isolated supports and low-health targets, then escapes before the team can punish him — a flanker, not a brawler.",
+      "combos": [
+        "Beginner pick: Web Cluster → Pull → melee combo → punch → punch → escape",
+        "Standard kill: Tracer → Get Over Here → melee combo → basic attack → Web Cluster → basic attack → escape",
+        "Advanced dive: high ground → swing cancel → Tracer → Pull → melee combo → air punch → ground punch → swing out immediately"
+      ],
+      "commonMistakes": [
+        "Diving straight into the enemy team instead of coming from behind, above, or around",
+        "Fighting tanks instead of hunting supports and low-health DPS",
+        "Staying one extra second after a combo fails instead of disengaging immediately",
+        "Opening with the ultimate instead of saving it for when the enemy is already grouped or committed",
+        "Chasing a target who already escaped instead of resetting"
+      ]
+    },
+    {
+      "heroId": "luna-snow",
+      "summary": "Elite Strategist who blends heavy healing with poke damage and a freeze that shuts down divers, then swings fights with a flexible heal/damage ultimate.",
+      "combos": [
+        "Self-defense: Absolute Zero (freeze) → primary fire → Ice Arts → primary fire → disengage",
+        "Anti-diver: freeze the diver → headshots → Ice Arts → keep distance → finish",
+        "Teamfight: Share the Stage on priority target → primary healing → Ice Arts → heal team → ultimate at fight start"
+      ],
+      "commonMistakes": [
+        "Sitting on the ultimate too long instead of using it to win the fight in front of you",
+        "Only healing and never using primary fire's poke damage",
+        "Wasting Absolute Zero (freeze) randomly instead of saving it for a dive or a key enemy ability",
+        "Standing still instead of repositioning behind cover",
+        "Chasing kills across the map instead of staying with the team"
+      ]
+    },
+    {
+      "heroId": "hulk",
+      "summary": "Disruption Vanguard, not a damage sponge — his job is diving priority targets, isolating them with Radioactive Lockdown, shielding the team, and forcing the enemy to react to him.",
+      "combos": [
+        "Basic engage: Leap → Radioactive Lockdown → Heavy Blow → Gamma Burst → shield → retreat",
+        "Support pick: Leap onto support → Lockdown → punch → Gamma Burst → punch → let team finish",
+        "Shield engage: Leap → shield immediately → absorb damage → Lockdown priority target → punch → retreat"
+      ],
+      "commonMistakes": [
+        "Diving alone without the team following",
+        "Holding the shield too long instead of using it during the engage",
+        "Fighting enemy tanks instead of disrupting supports and carries",
+        "Wasting Radioactive Lockdown on a full-health tank instead of a support or carry",
+        "Staying in the fight after Leap, Shield, and Lockdown are all on cooldown"
+      ]
+    },
+    {
+      "heroId": "black-cat",
+      "summary": "High-mobility assassin Duelist built around Fortune management — bait a target out, burst them down while isolated, and vanish before the team can punish the dive.",
+      "combos": [
+        "Beginner pick: Steal → Dash → Claw Strike → dash out",
+        "Support delete: Steal (build Fortune) → Dash in → Claw Strike spam → artifact ability → Phantom Pursuit if they run → escape",
+        "1v1: Steal → Dash → basic attacks → hold the second dash until they commit"
+      ],
+      "commonMistakes": [
+        "Diving before enemy defensive cooldowns (stuns, heals) are used up",
+        "Spending both dashes to engage, leaving no escape after the kill",
+        "Ignoring Fortune and diving aggressively while it's low",
+        "Fighting the frontline/tanks instead of hunting isolated supports and DPS",
+        "Getting greedy for a second kill instead of disengaging after the first"
+      ]
+    }
+  ]
+}

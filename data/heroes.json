@@ -1,0 +1,793 @@
+{
+  "heroes": [
+    {
+      "id": "adam-warlock",
+      "name": "Adam Warlock",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "angela",
+      "name": "Angela",
+      "role": "Vanguard",
+      "counters": []
+    },
+    {
+      "id": "black-cat",
+      "name": "Black Cat",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "black-panther",
+      "name": "Black Panther",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "adam-warlock"
+        },
+        {
+          "heroId": "cloak-and-dagger"
+        },
+        {
+          "heroId": "cyclops"
+        },
+        {
+          "heroId": "gambit"
+        },
+        {
+          "heroId": "hawkeye"
+        },
+        {
+          "heroId": "invisible-woman"
+        },
+        {
+          "heroId": "jeff-the-land-shark"
+        },
+        {
+          "heroId": "luna-snow"
+        },
+        {
+          "heroId": "mantis"
+        },
+        {
+          "heroId": "rocket-raccoon"
+        },
+        {
+          "heroId": "scarlet-witch"
+        },
+        {
+          "heroId": "ultron"
+        },
+        {
+          "heroId": "white-fox"
+        }
+      ]
+    },
+    {
+      "id": "black-widow",
+      "name": "Black Widow",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "human-torch"
+        },
+        {
+          "heroId": "iron-man"
+        },
+        {
+          "heroId": "phoenix"
+        },
+        {
+          "heroId": "star-lord"
+        },
+        {
+          "heroId": "storm"
+        }
+      ]
+    },
+    {
+      "id": "blade",
+      "name": "Blade",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "captain-america",
+      "name": "Captain America",
+      "role": "Vanguard",
+      "counters": []
+    },
+    {
+      "id": "cloak-and-dagger",
+      "name": "Cloak & Dagger",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "daredevil",
+      "name": "Daredevil",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "deadpool",
+      "name": "Deadpool",
+      "role": [
+        "Vanguard",
+        "Duelist",
+        "Strategist"
+      ],
+      "counters": []
+    },
+    {
+      "id": "devil-dinosaur",
+      "name": "Devil Dinosaur",
+      "role": "Vanguard",
+      "counters": []
+    },
+    {
+      "id": "doctor-strange",
+      "name": "Doctor Strange",
+      "role": "Vanguard",
+      "counters": [
+        {
+          "heroId": "deadpool"
+        }
+      ]
+    },
+    {
+      "id": "elsa-bloodstone",
+      "name": "Elsa Bloodstone",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "emma-frost",
+      "name": "Emma Frost",
+      "role": "Vanguard",
+      "counters": []
+    },
+    {
+      "id": "gambit",
+      "name": "Gambit",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "groot",
+      "name": "Groot",
+      "role": "Vanguard",
+      "counters": []
+    },
+    {
+      "id": "hawkeye",
+      "name": "Hawkeye",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "human-torch"
+        },
+        {
+          "heroId": "iron-man"
+        },
+        {
+          "heroId": "namor"
+        },
+        {
+          "heroId": "phoenix"
+        },
+        {
+          "heroId": "star-lord"
+        },
+        {
+          "heroId": "storm"
+        },
+        {
+          "heroId": "wolverine"
+        }
+      ]
+    },
+    {
+      "id": "hela",
+      "name": "Hela",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "human-torch"
+        },
+        {
+          "heroId": "iron-man"
+        },
+        {
+          "heroId": "namor"
+        },
+        {
+          "heroId": "phoenix"
+        },
+        {
+          "heroId": "star-lord"
+        },
+        {
+          "heroId": "storm"
+        },
+        {
+          "heroId": "wolverine"
+        }
+      ]
+    },
+    {
+      "id": "hulk",
+      "name": "Hulk",
+      "role": "Vanguard",
+      "counters": [
+        {
+          "heroId": "black-cat"
+        },
+        {
+          "heroId": "black-panther"
+        },
+        {
+          "heroId": "blade"
+        },
+        {
+          "heroId": "daredevil"
+        },
+        {
+          "heroId": "iron-fist"
+        },
+        {
+          "heroId": "magik"
+        },
+        {
+          "heroId": "psylocke"
+        },
+        {
+          "heroId": "spider-man"
+        }
+      ]
+    },
+    {
+      "id": "human-torch",
+      "name": "Human Torch",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "groot"
+        },
+        {
+          "heroId": "mister-fantastic"
+        },
+        {
+          "heroId": "peni-parker"
+        }
+      ]
+    },
+    {
+      "id": "invisible-woman",
+      "name": "Invisible Woman",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "iron-fist",
+      "name": "Iron Fist",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "iron-man",
+      "name": "Iron Man",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "namor"
+        }
+      ]
+    },
+    {
+      "id": "jeff-the-land-shark",
+      "name": "Jeff the Land Shark",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "luna-snow",
+      "name": "Luna Snow",
+      "role": "Strategist",
+      "counters": [
+        {
+          "heroId": "black-panther"
+        },
+        {
+          "heroId": "daredevil"
+        },
+        {
+          "heroId": "iron-fist"
+        }
+      ]
+    },
+    {
+      "id": "magik",
+      "name": "Magik",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "adam-warlock"
+        },
+        {
+          "heroId": "black-widow"
+        },
+        {
+          "heroId": "elsa-bloodstone"
+        },
+        {
+          "heroId": "loki"
+        },
+        {
+          "heroId": "moon-knight"
+        },
+        {
+          "heroId": "squirrel-girl"
+        },
+        {
+          "heroId": "the-punisher"
+        },
+        {
+          "heroId": "winter-soldier"
+        }
+      ]
+    },
+    {
+      "id": "magneto",
+      "name": "Magneto",
+      "role": "Vanguard",
+      "counters": [
+        {
+          "heroId": "angela"
+        },
+        {
+          "heroId": "captain-america"
+        },
+        {
+          "heroId": "deadpool"
+        },
+        {
+          "heroId": "doctor-strange"
+        },
+        {
+          "heroId": "emma-frost"
+        },
+        {
+          "heroId": "hulk"
+        },
+        {
+          "heroId": "peni-parker"
+        },
+        {
+          "heroId": "the-thing"
+        },
+        {
+          "heroId": "thor"
+        },
+        {
+          "heroId": "venom"
+        }
+      ]
+    },
+    {
+      "id": "mantis",
+      "name": "Mantis",
+      "role": "Strategist",
+      "counters": [
+        {
+          "heroId": "black-cat"
+        },
+        {
+          "heroId": "blade"
+        },
+        {
+          "heroId": "deadpool"
+        },
+        {
+          "heroId": "magik"
+        },
+        {
+          "heroId": "psylocke"
+        },
+        {
+          "heroId": "spider-man"
+        }
+      ]
+    },
+    {
+      "id": "mister-fantastic",
+      "name": "Mister Fantastic",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "moon-knight",
+      "name": "Moon Knight",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "namor",
+      "name": "Namor",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "peni-parker",
+      "name": "Peni Parker",
+      "role": "Vanguard",
+      "counters": [
+        {
+          "heroId": "black-cat"
+        },
+        {
+          "heroId": "black-panther"
+        },
+        {
+          "heroId": "blade"
+        },
+        {
+          "heroId": "daredevil"
+        },
+        {
+          "heroId": "iron-fist"
+        },
+        {
+          "heroId": "magik"
+        },
+        {
+          "heroId": "psylocke"
+        },
+        {
+          "heroId": "spider-man"
+        }
+      ]
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "angela"
+        },
+        {
+          "heroId": "devil-dinosaur"
+        },
+        {
+          "heroId": "magneto"
+        },
+        {
+          "heroId": "rogue"
+        },
+        {
+          "heroId": "thor"
+        }
+      ]
+    },
+    {
+      "id": "psylocke",
+      "name": "Psylocke",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "cloak-and-dagger"
+        },
+        {
+          "heroId": "hela"
+        },
+        {
+          "heroId": "invisible-woman"
+        },
+        {
+          "heroId": "jeff-the-land-shark"
+        },
+        {
+          "heroId": "luna-snow"
+        },
+        {
+          "heroId": "scarlet-witch"
+        },
+        {
+          "heroId": "ultron"
+        },
+        {
+          "heroId": "white-fox"
+        }
+      ]
+    },
+    {
+      "id": "rocket-raccoon",
+      "name": "Rocket Raccoon",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "role": "Vanguard",
+      "counters": []
+    },
+    {
+      "id": "scarlet-witch",
+      "name": "Scarlet Witch",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "doctor-strange"
+        },
+        {
+          "heroId": "magneto"
+        }
+      ]
+    },
+    {
+      "id": "spider-man",
+      "name": "Spider-Man",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "adam-warlock"
+        },
+        {
+          "heroId": "black-widow"
+        },
+        {
+          "heroId": "cloak-and-dagger"
+        },
+        {
+          "heroId": "cyclops"
+        },
+        {
+          "heroId": "elsa-bloodstone"
+        },
+        {
+          "heroId": "gambit"
+        },
+        {
+          "heroId": "hawkeye"
+        },
+        {
+          "heroId": "hela"
+        },
+        {
+          "heroId": "invisible-woman"
+        },
+        {
+          "heroId": "jeff-the-land-shark"
+        },
+        {
+          "heroId": "loki"
+        },
+        {
+          "heroId": "luna-snow"
+        },
+        {
+          "heroId": "mantis"
+        },
+        {
+          "heroId": "moon-knight"
+        },
+        {
+          "heroId": "rocket-raccoon"
+        },
+        {
+          "heroId": "scarlet-witch"
+        },
+        {
+          "heroId": "squirrel-girl"
+        },
+        {
+          "heroId": "the-punisher"
+        },
+        {
+          "heroId": "ultron"
+        },
+        {
+          "heroId": "white-fox"
+        },
+        {
+          "heroId": "winter-soldier"
+        }
+      ]
+    },
+    {
+      "id": "squirrel-girl",
+      "name": "Squirrel Girl",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "star-lord",
+      "name": "Star-Lord",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "storm",
+      "name": "Storm",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "captain-america"
+        },
+        {
+          "heroId": "devil-dinosaur"
+        },
+        {
+          "heroId": "emma-frost"
+        },
+        {
+          "heroId": "groot"
+        },
+        {
+          "heroId": "hulk"
+        },
+        {
+          "heroId": "mister-fantastic"
+        },
+        {
+          "heroId": "peni-parker"
+        },
+        {
+          "heroId": "rogue"
+        },
+        {
+          "heroId": "the-thing"
+        },
+        {
+          "heroId": "venom"
+        },
+        {
+          "heroId": "wolverine"
+        }
+      ]
+    },
+    {
+      "id": "the-punisher",
+      "name": "The Punisher",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "the-thing",
+      "name": "The Thing",
+      "role": "Vanguard",
+      "counters": []
+    },
+    {
+      "id": "thor",
+      "name": "Thor",
+      "role": "Vanguard",
+      "counters": []
+    },
+    {
+      "id": "ultron",
+      "name": "Ultron",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "venom",
+      "name": "Venom",
+      "role": "Vanguard",
+      "counters": [
+        {
+          "heroId": "black-widow"
+        },
+        {
+          "heroId": "cyclops"
+        },
+        {
+          "heroId": "elsa-bloodstone"
+        },
+        {
+          "heroId": "gambit"
+        },
+        {
+          "heroId": "hawkeye"
+        },
+        {
+          "heroId": "hela"
+        },
+        {
+          "heroId": "loki"
+        },
+        {
+          "heroId": "mantis"
+        },
+        {
+          "heroId": "moon-knight"
+        },
+        {
+          "heroId": "rocket-raccoon"
+        },
+        {
+          "heroId": "squirrel-girl"
+        },
+        {
+          "heroId": "the-punisher"
+        },
+        {
+          "heroId": "winter-soldier"
+        }
+      ]
+    },
+    {
+      "id": "white-fox",
+      "name": "White Fox",
+      "role": "Strategist",
+      "counters": []
+    },
+    {
+      "id": "winter-soldier",
+      "name": "Winter Soldier",
+      "role": "Duelist",
+      "counters": []
+    },
+    {
+      "id": "wolverine",
+      "name": "Wolverine",
+      "role": "Duelist",
+      "counters": [
+        {
+          "heroId": "angela"
+        },
+        {
+          "heroId": "captain-america"
+        },
+        {
+          "heroId": "devil-dinosaur"
+        },
+        {
+          "heroId": "doctor-strange"
+        },
+        {
+          "heroId": "emma-frost"
+        },
+        {
+          "heroId": "groot"
+        },
+        {
+          "heroId": "hulk"
+        },
+        {
+          "heroId": "magneto"
+        },
+        {
+          "heroId": "mister-fantastic"
+        },
+        {
+          "heroId": "rogue"
+        },
+        {
+          "heroId": "the-thing"
+        },
+        {
+          "heroId": "thor"
+        },
+        {
+          "heroId": "venom"
+        }
+      ]
+    }
+  ]
+}
